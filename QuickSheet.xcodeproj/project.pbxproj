@@ -10,12 +10,12 @@
 		B92B140A1F3F3B6600036119 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B14091F3F3B6600036119 /* UIFontExtension.swift */; };
 		B92B140D1F3F3CB900036119 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B140C1F3F3CB900036119 /* KeyboardView.swift */; };
 		B92B140F1F3F3CCD00036119 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92B140E1F3F3CCD00036119 /* KeyboardView.xib */; };
-		B92B14151F3F4C9A00036119 /* JazzText Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B92B14141F3F4C9A00036119 /* JazzText Regular.ttf */; };
 		B92B14191F3F4ECD00036119 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92B14171F3F4ECD00036119 /* ChartViewController.swift */; };
 		B92B141A1F3F4ECD00036119 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92B14181F3F4ECD00036119 /* ChartViewController.xib */; };
 		B93C19CF1F3F2C5900793984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93C19CE1F3F2C5900793984 /* AppDelegate.swift */; };
 		B93C19D61F3F2C5900793984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93C19D51F3F2C5900793984 /* Assets.xcassets */; };
 		B93C19D91F3F2C5900793984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93C19D71F3F2C5900793984 /* LaunchScreen.storyboard */; };
+		B94B54AA1F3F69BB00E76345 /* JazzText Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B94B54A91F3F69BB00E76345 /* JazzText Regular.ttf */; };
 		C5B5E7C579526DAFC0511A98 /* Pods_QuickSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04964D6E2D38DC7E3FA3F16A /* Pods_QuickSheet.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,6 @@
 		B92B14091F3F3B6600036119 /* UIFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFontExtension.swift; path = Extensions/UIFontExtension.swift; sourceTree = "<group>"; };
 		B92B140C1F3F3CB900036119 /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardView.swift; path = Views/KeyboardView.swift; sourceTree = "<group>"; };
 		B92B140E1F3F3CCD00036119 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KeyboardView.xib; path = Views/KeyboardView.xib; sourceTree = "<group>"; };
-		B92B14141F3F4C9A00036119 /* JazzText Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JazzText Regular.ttf"; sourceTree = "<group>"; };
 		B92B14171F3F4ECD00036119 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartViewController.swift; path = ViewControllers/ChartViewController.swift; sourceTree = "<group>"; };
 		B92B14181F3F4ECD00036119 /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChartViewController.xib; path = ViewControllers/ChartViewController.xib; sourceTree = "<group>"; };
 		B93C19CB1F3F2C5900793984 /* QuickSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +32,7 @@
 		B93C19D51F3F2C5900793984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B93C19D81F3F2C5900793984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B93C19DA1F3F2C5900793984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94B54A91F3F69BB00E76345 /* JazzText Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "JazzText Regular.ttf"; path = "Resources/Fonts/JazzText Regular.ttf"; sourceTree = "<group>"; };
 		D78787A116259FFEE65D3F8A /* Pods-QuickSheet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickSheet.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickSheet/Pods-QuickSheet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +82,7 @@
 		B92B14001F3F36B600036119 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				B92B14141F3F4C9A00036119 /* JazzText Regular.ttf */,
+				B94B54A91F3F69BB00E76345 /* JazzText Regular.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -220,8 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B92B141A1F3F4ECD00036119 /* ChartViewController.xib in Resources */,
-				B92B14151F3F4C9A00036119 /* JazzText Regular.ttf in Resources */,
 				B92B140F1F3F3CCD00036119 /* KeyboardView.xib in Resources */,
+				B94B54AA1F3F69BB00E76345 /* JazzText Regular.ttf in Resources */,
 				B93C19D91F3F2C5900793984 /* LaunchScreen.storyboard in Resources */,
 				B93C19D61F3F2C5900793984 /* Assets.xcassets in Resources */,
 			);
