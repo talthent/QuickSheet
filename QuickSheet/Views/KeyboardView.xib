@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="scribe-chords.ttf">
+            <string>chords</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KeyboardView" customModule="QuickSheet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="492" height="221"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kjg-dZ-yms">
+                    <rect key="frame" x="0.0" y="0.0" width="184" height="221"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jQa-O5-QHT">
+                            <rect key="frame" x="0.0" y="0.0" width="184" height="73.5"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhr-pM-6y6">
+                                    <rect key="frame" x="0.0" y="0.0" width="92" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="C">
+                                        <color key="titleColor" cyan="0.071278555525673762" magenta="0.18357865346802604" yellow="0.31476496325598824" black="0.43065068493150682" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9C-7e-FcY">
+                                    <rect key="frame" x="92" y="0.0" width="92" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="D">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fLN-fF-XfS">
+                            <rect key="frame" x="0.0" y="73.5" width="184" height="74"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adX-0m-zID">
+                                    <rect key="frame" x="0.0" y="0.0" width="61.5" height="74"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="E">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVE-CK-ZiB">
+                                    <rect key="frame" x="61.5" y="0.0" width="61" height="74"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="F">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQt-Ot-GFd">
+                                    <rect key="frame" x="122.5" y="0.0" width="61.5" height="74"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="G">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HSY-z2-n1s">
+                            <rect key="frame" x="0.0" y="147.5" width="184" height="73.5"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygC-sg-v8h">
+                                    <rect key="frame" x="0.0" y="0.0" width="61.5" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="A">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9EC-Wu-m8C">
+                                    <rect key="frame" x="61.5" y="0.0" width="61" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="27"/>
+                                    <state key="normal" title="B">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TzU-Hh-DmI">
+                                    <rect key="frame" x="122.5" y="0.0" width="61.5" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="27"/>
+                                    <state key="normal" title="/">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="184" id="BxE-g3-3Bp"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ldl-kL-SQp">
+                    <rect key="frame" x="308" y="0.0" width="184" height="221"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dmr-eJ-Km8">
+                            <rect key="frame" x="0.0" y="0.0" width="184" height="73.5"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TL1-gt-IKh">
+                                    <rect key="frame" x="0.0" y="0.0" width="46" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="7">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5V-bT-WaA">
+                                    <rect key="frame" x="46" y="0.0" width="46" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="9">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqf-2P-XSi">
+                                    <rect key="frame" x="92" y="0.0" width="46" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="11">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0Y-UM-G3M">
+                                    <rect key="frame" x="138" y="0.0" width="46" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="13">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hKg-bd-HdP">
+                            <rect key="frame" x="0.0" y="73.5" width="184" height="74"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bk-nU-P6n">
+                                    <rect key="frame" x="0.0" y="0.0" width="46" height="74"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="m">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JM1-HL-XOS">
+                                    <rect key="frame" x="46" y="0.0" width="46" height="74"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="º">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhI-VU-gKz">
+                                    <rect key="frame" x="92" y="0.0" width="46" height="74"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="ø">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AX8-aw-KfR">
+                                    <rect key="frame" x="138" y="0.0" width="46" height="74"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="+">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sJh-G8-l0I">
+                            <rect key="frame" x="0.0" y="147.5" width="184" height="73.5"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10m-TY-cvW">
+                                    <rect key="frame" x="0.0" y="0.0" width="61.5" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="maj7">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DIL-cA-AQw">
+                                    <rect key="frame" x="61.5" y="0.0" width="61" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="26"/>
+                                    <state key="normal" title="sus4">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbg-Va-9I9">
+                                    <rect key="frame" x="122.5" y="0.0" width="61.5" height="73.5"/>
+                                    <fontDescription key="fontDescription" name="chords" family="chords" pointSize="27"/>
+                                    <state key="normal" title="sus2">
+                                        <color key="titleColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="184" id="dYY-67-vEt"/>
+                    </constraints>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8LV-Ri-rkC">
+                    <rect key="frame" x="0.0" y="0.0" width="492" height="1"/>
+                    <color key="backgroundColor" cyan="0.071278555529999996" magenta="0.18357865349999999" yellow="0.31476496329999998" black="0.43065068490000002" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="eTd-Yi-ekC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.98174370659999999" green="0.96745383740000002" blue="0.95058542150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="8LV-Ri-rkC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2Xu-bD-e10"/>
+                <constraint firstAttribute="bottom" secondItem="kjg-dZ-yms" secondAttribute="bottom" id="BYC-tB-5nq"/>
+                <constraint firstAttribute="trailing" secondItem="8LV-Ri-rkC" secondAttribute="trailing" id="ISN-Us-PCy"/>
+                <constraint firstItem="kjg-dZ-yms" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cux-L3-sXY"/>
+                <constraint firstItem="ldl-kL-SQp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ghq-qv-hWA"/>
+                <constraint firstAttribute="trailing" secondItem="ldl-kL-SQp" secondAttribute="trailing" id="i6B-4v-VCz"/>
+                <constraint firstItem="kjg-dZ-yms" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="i78-TE-lHw"/>
+                <constraint firstItem="8LV-Ri-rkC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vrf-Jn-Dyd"/>
+                <constraint firstAttribute="bottom" secondItem="ldl-kL-SQp" secondAttribute="bottom" id="xg8-N2-Cqn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="aButton" destination="ygC-sg-v8h" id="cY6-ET-bTH"/>
+                <outlet property="augButton" destination="AX8-aw-KfR" id="ekR-II-h5R"/>
+                <outlet property="bButton" destination="9EC-Wu-m8C" id="DSJ-bK-UMA"/>
+                <outlet property="cButton" destination="Rhr-pM-6y6" id="Jkk-9C-YOx"/>
+                <outlet property="dButton" destination="s9C-7e-FcY" id="NPI-JB-VFB"/>
+                <outlet property="dimButton" destination="JM1-HL-XOS" id="hlD-BV-5pl"/>
+                <outlet property="eButton" destination="adX-0m-zID" id="pJB-2z-7eH"/>
+                <outlet property="elevenButton" destination="Bqf-2P-XSi" id="3tf-fX-0em"/>
+                <outlet property="fButton" destination="FVE-CK-ZiB" id="oZl-yS-8eh"/>
+                <outlet property="gButton" destination="zQt-Ot-GFd" id="5Vh-OF-zol"/>
+                <outlet property="halfdimButton" destination="MhI-VU-gKz" id="h5B-TF-q3G"/>
+                <outlet property="majSevenButton" destination="10m-TY-cvW" id="XAF-IS-Me6"/>
+                <outlet property="minorButton" destination="2bk-nU-P6n" id="iN6-Km-2e3"/>
+                <outlet property="nineButton" destination="U5V-bT-WaA" id="TaE-1f-Otu"/>
+                <outlet property="sevenButton" destination="TL1-gt-IKh" id="GrT-V4-Izm"/>
+                <outlet property="slashButton" destination="TzU-Hh-DmI" id="NUX-nv-alc"/>
+                <outlet property="susFourButton" destination="DIL-cA-AQw" id="wlr-Xa-GBN"/>
+                <outlet property="susTwoButton" destination="Kbg-Va-9I9" id="YFv-Bf-QQT"/>
+                <outlet property="thirdteenButton" destination="t0Y-UM-G3M" id="CZW-yH-kHO"/>
+            </connections>
+            <point key="canvasLocation" x="165" y="-658.5"/>
+        </view>
+    </objects>
+</document>
